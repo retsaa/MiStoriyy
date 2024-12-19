@@ -57,4 +57,5 @@
     <string name="hint_password">password</string>
     <string name="item_error_text">gagal memuat cerita</string>
     <string name="retry_item_story">coba lagi</string>
+    <string name="title_storiy">TITLE STORY</string>
 </resources>

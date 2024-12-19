@@ -43,9 +43,9 @@ class HomeFragment : Fragment() {
 
     private fun setupRv() {
         val adapter = StoriyAdapter()
-        val footerAdapter = LoadingStateAdapter {adapter.retry}
         binding.rvStoriy.layoutManager = LinearLayoutManager(requireActivity())
-        binding.rvStoriy.adapter = adapter.
+        binding.rvStoriy.adapter = adapter
+
     }
 
     private fun setupObservers() {

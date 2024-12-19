@@ -3,6 +3,7 @@ package com.dicoding.mistoriyy.storiyy
 
 
 import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 @Entity(tableName = "storiy" )
 data class ListStoriyItem(
@@ -21,8 +22,9 @@ data class ListStoriyItem(
     @field:SerializedName("lon")
     val lon: Double? = null,
 
+    @PrimaryKey
     @field:SerializedName("id")
-    val id: String? = null,
+    val id: String = "",
 
     @field:SerializedName("lat")
     val lat: Double? = null
