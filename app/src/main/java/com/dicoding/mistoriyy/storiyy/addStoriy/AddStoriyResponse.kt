@@ -1,0 +1,13 @@
+package com.dicoding.mistoriyy.storiyy.addStoriy
+
+
+
+import com.google.gson.annotations.SerializedName
+
+data class AddStoriyResponse(
+    @field:SerializedName("error")
+    val error: Boolean? = null,
+
+    @field:SerializedName("message")
+    val message: String? = null
+)
